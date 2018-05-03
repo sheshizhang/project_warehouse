@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">简单记事本</string>
+    <string name="wellcome_use_nopad">欢迎使用简单记事本</string>
+    <string name="create_newpad">新建记事</string>
+    <string name="choose_todo">请选择操作</string>
+    <string name="open_item">打开</string>
+    <string name="edit_item">编辑</string>
+    <string name="delete_item">删除</string>
+</resources>

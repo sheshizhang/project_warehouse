@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:id="@+id/notepadsee_LinearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/shade_bg">
+        <TextView
+            android:id="@+id/notepadsee_TextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:textColor="@color/colorGray"/>
+    </LinearLayout>
+    <View
+        android:layout_below="@id/notepadsee_LinearLayout1"
+        android:id="@+id/notepadsee_view"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"/>
+
+    <LinearLayout
+        android:layout_below="@id/notepadsee_view"
+        android:id="@+id/notepadsee_LinearLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/shade_bg">
+        <TextView
+            android:id="@+id/notepadsee_ContentTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="30sp"
+            android:textColor="@color/colorGray"/>
+    </LinearLayout>
+</RelativeLayout>
